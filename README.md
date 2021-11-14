@@ -3,6 +3,7 @@
 [![npm version](http://img.shields.io/npm/dm/@gregfrench/react-native-wheel-picker.svg?style=flat-square)](https://www.npmjs.com/package/@gregfrench/react-native-wheel-picker "View this project on npm")
 
 ## Introduction
+## WARNING: THIS LIBRARY NO LONGER WORKS ON ANDROID. PLEASE DO NOT USE THIS. THANKS.
 Cross platform Picker component based on React-native.
 
 Since picker is originally supported by ios while Android only supports a ugly Spinner component. If you want to have the same user behaviour, you can use this.
