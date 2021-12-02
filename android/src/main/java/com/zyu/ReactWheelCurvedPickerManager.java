@@ -95,6 +95,14 @@ public class ReactWheelCurvedPickerManager extends SimpleViewManager<ReactWheelC
         }
     }
 
+    @ReactProp(name="lineColor")
+    public void setAlpha(ReactWheelCurvedPicker picker, Integer alpha) {
+        if (picker != null) {
+            picker.setAlpha(alpha);
+            picker.invalidate();
+        }
+    }
+
     @ReactProp(name="lineGradientColorFrom")
     public void setLineGradientColorFrom(ReactWheelCurvedPicker picker, String color) {
         if (picker != null) {

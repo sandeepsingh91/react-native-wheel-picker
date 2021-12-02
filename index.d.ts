@@ -51,6 +51,10 @@ export interface PickerProps<ItemValue> extends ViewProps {
      * @platform android
      */
     textSize?: number;
+    /**
+     * @platform android
+     */
+    alpha?: number;
 }
 
 export default class Picker<ItemValue> extends React.Component<PickerProps<ItemValue>, {}> {
