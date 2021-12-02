@@ -95,7 +95,7 @@ public class ReactWheelCurvedPickerManager extends SimpleViewManager<ReactWheelC
         }
     }
 
-    @ReactProp(name="lineColor")
+    @ReactProp(name="alpha")
     public void setAlpha(ReactWheelCurvedPicker picker, Integer alpha) {
         if (picker != null) {
             picker.setAlpha(alpha);
